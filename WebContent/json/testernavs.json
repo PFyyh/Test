@@ -1,0 +1,12 @@
+{
+	"contentManagement": [
+		{
+			"title": "体育班级管理",
+			"icon": "icon-text",
+			"href": "../PEClass/PEClassList.jsp",
+			"spread": false
+		}
+	]
+}
+
+

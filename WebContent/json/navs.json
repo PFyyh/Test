@@ -1,0 +1,80 @@
+{
+	"contentManagement": [
+		{
+			"title": "学院管理",
+			"icon": "icon-text",
+			"href": "page/faculty/FacultyList.jsp",
+			"spread": false
+		}, 
+		{
+			"title": "学生信息管理",
+			"icon": "icon-text",
+			"href": "page/stuInfor/StuInfor.jsp",
+			"spread": false
+		},
+		{
+			"title": "专业信息管理",
+			"icon": "icon-text",
+			"href": "page/major/MajorList.jsp",
+			"spread": false
+		},
+		{
+			"title": "体测记录管理",
+			"icon": "icon-text",
+			"href": "page/record/RecordList.jsp",
+			"spread": false
+		},
+		{
+			"title": "教师信息管理",
+			"icon": "icon-text",
+			"href": "page/teacher/TeacherList.jsp",
+			"spread": false
+		},
+		{
+			"title": "测试员信息管理",
+			"icon": "icon-text",
+			"href": "page/tester/TesterList.jsp",
+			"spread": false
+		},	
+		{
+			"title": "管理员信息管理",
+			"icon": "icon-text",
+			"href": "page/admin/AdminList.jsp",
+			"spread": false
+		},
+		{
+			"title": "班级管理",
+			"icon": "icon-text",
+			"href": "page/class/ClassList.jsp",
+			"spread": false
+		},
+		{
+			"title": "体育班级管理",
+			"icon": "icon-text",
+			"href": "page/PEClass/PEClassList.jsp",
+			"spread": false
+		},
+		{
+			"title": "开始测试",
+			"icon": "icon-text",
+			"href": "page/testermain.html",
+			"spread": false
+		},
+		{
+			"title": "系统设置",
+			"icon": "&#xe630;",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "系统参数",
+					"icon": "&#xe631;",
+					"href": "page/systemSetting/basicParameter.html",
+					"spread": false
+				}
+			]
+		}
+	]
+}
+
+

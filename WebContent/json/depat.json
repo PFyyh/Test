@@ -1,0 +1,15 @@
+{
+	"code": 0,
+	"msg": "",
+	"count": 2,
+	"data": [
+		{
+			"facultyid": "1",
+			"facultyname": "计算机工程学院"
+		},
+		{
+			"facultyid": "2",
+			"facultyname": "材料工程学院"
+		}
+	]
+}

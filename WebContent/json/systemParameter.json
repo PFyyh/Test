@@ -1,0 +1,14 @@
+{
+	"cmsName": "体质健康数据管理系统",
+	"version": "v2.0",
+	"author": "软件工程综合实践三",
+	"homePage": "index.html",
+	"server": "windows",
+	"dataBase": "MySQL",
+	"maxUpload": "2M",
+	"userRights": "超级管理员",
+	"description": "后台管理系统，仅供学习",
+	"powerby": "&copy;2018 【630825117@qq.com】 All rights reserved.",
+	"record": "备案中",
+	"keywords": "layui，后台模版"
+}

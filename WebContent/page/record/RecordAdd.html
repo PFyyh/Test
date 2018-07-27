@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>专业添加</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
+<link rel="stylesheet" href="../../css/public.css" media="all" />
+</head>
+
+<body class="childrenBody">
+	<form class="layui-form">
+
+		<div class="layui-row">
+			<div class="layui-col-xs6">
+				<div class="layui-form-item layui-hide">
+					<label class="layui-form-label">操作</label>
+					<div class="layui-input-block">
+						<input id="operation" type="hidden" class="layui-input input-item"
+							value="add" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">学号</label>
+					<div class="layui-input-block">
+						<input id="stuNo" type="text" class="layui-input input-item"
+							lay-verify="stuNo" name="stuNo" placeholder="请输入学号" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">学生姓名</label>
+					<div class="layui-input-block">
+						<input id="stuName" type="text" class="layui-input input-item"
+							lay-verify="stuName" name="stuName" placeholder="请输入学生姓名" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">年份</label>
+					<div class="layui-input-block">
+						<input id="year" type="text" class="layui-input input-item"
+							lay-verify="year" name="year" placeholder="请输入年份" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">身高</label>
+					<div class="layui-input-block">
+						<input id="height" type="text" class="layui-input input-item"
+							lay-verify="height" name="height" placeholder="请输入身高值" />
+					</div>
+				</div>
+			</div>
+
+			<div class="layui-col-xs6">
+				<div class="layui-form-item">
+					<label class="layui-form-label">体重</label>
+					<div class="layui-input-block">
+						<input id="weight" type="text" class="layui-input input-item"
+							lay-verify="weight" name="weight" placeholder="请输入专业名称" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">肺活量</label>
+					<div class="layui-input-block">
+						<input id="vitalCapacity" type="text"
+							class="layui-input input-item" lay-verify="vitalCapacity"
+							name="vitalCapacity" placeholder="请输入肺活量值" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">坐位体前屈</label>
+					<div class="layui-input-block">
+						<input id="beginToBend" type="text" class="layui-input input-item"
+							lay-verify="beginToBend" name="beginToBend"
+							placeholder="请输入坐位体前屈值" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">立定跳远</label>
+					<div class="layui-input-block">
+						<input id="standingBroadJump" type="text"
+							class="layui-input input-item" lay-verify="standingBroadJump"
+							name="standingBroadJump" placeholder="请输入立定跳远值" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">躯体运动</label>
+					<div class="layui-input-block">
+						<input id="sitUp" type="text" class="layui-input input-item"
+							lay-verify="sitUp" name="sitUp" placeholder="请输入引体向上/仰卧起坐值" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">50米跑</label>
+					<div class="layui-input-block">
+						<input id="fivetyRun" type="text" class="layui-input input-item"
+							lay-verify="fivetyRun" name="fivetyRun" placeholder="请输入50米跑值" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">耐力跑</label>
+					<div class="layui-input-block">
+						<input id="thousandRun" type="text" class="layui-input input-item"
+							lay-verify="thousandRun" name="thousandRun"
+							placeholder="请输入1000米/800米值" />
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="layui-form-item magt30">
+			<button class="layui-btn layui-block" lay-filter="addLink" lay-submit>提交</button>
+		</div>
+	</form>
+	<script type="text/javascript" src="../../layui/layui.js"></script>
+	<script type="text/javascript" src="../../page/record/RecordAdd.js"></script>
+</body>
+
+</html>
